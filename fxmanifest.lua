@@ -1,6 +1,3 @@
---[[
-	Made by Nobody
-]]
 fx_version 'adamant'
 
 game 'gta5'
