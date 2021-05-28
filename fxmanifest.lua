@@ -1,4 +1,4 @@
-fx_version 'adamant'
+fx_version 'bodacious'
 
 game 'gta5'
 
@@ -12,12 +12,11 @@ files {
 ui_page 'html/index.html'
 
 server_scripts {
-  'server/main.lua',
-  '@mysql-async/lib/MySQL.lua'
+  'server/*.lua',
 }
    
 client_scripts {
   'config.lua',
-  'client/main.lua'
+  'client/*.lua'
 }
    
